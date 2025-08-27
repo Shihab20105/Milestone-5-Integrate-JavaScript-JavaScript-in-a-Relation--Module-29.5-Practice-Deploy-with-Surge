@@ -1,4 +1,4 @@
-// JS/practice.js
+/*            29_5-1 Practice Money master and handle a few validation */
 
 // Function to calculate total expense and balance
 const calculateExpense = () => {
@@ -66,7 +66,9 @@ const calculateSavings = () => {
 };
 
 
-/* ------------------------------------------------------------------------------------------------- */
+// ========================================================================================//
+//                              Things For Remember
+// ========================================================================================//
 
 /* 
 
