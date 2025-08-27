@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- Google Font Link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <!-- Font Awesome Link  -->
+    <script src="https://kit.fontawesome.com/0f4ca1df67.js" crossorigin="anonymous"></script>
+    <!-- Tailwind Link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Configuration  -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        common: 'var(--Dark-03, #777);',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- CSS Link  -->
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+<body class="">
+    <header class="md:flex lg:flex justify-center text-center lg:text-start px-5">
+        <!-------------------------
+            Banner
+        ------------------------------------>
+        <div class="p-5">
+            <h1 class="title text-6xl font-semibold leading-tight mt-5">It's good<br>tea time at The<br>Tea House</h1>
+            <p class="banner-description text-common mt-5">Tea and Botanical Solutions Supplier Give Optimum
+                Satisfaction To Your Taste Buds.</p>
+            <button class="btn-primary inline mt-5">Explore More <img class="ms-2 inline" src="images/arrow.png" alt=""></button>
+        </div>
+        <div class="mt-10 p-4">
+            <img class="relative" src="images/banner.png" alt="">
+            <button class="star-btn flex items-center justify-center bottom-12 lg:bottom-28 left-4 lg:left-24">
+                <div><img src="images/Group 5.png" alt=""></div>
+                <div>
+                    <h6 class="rating">5.09</h6>
+                    <p class="trust">Trust Pilot Ratings</p>
+                </div>
+            </button>
+        </div>
+    </header>
+    <main>
+        <!-------------------------------
+            Our Featured Products
+        ------------------------------------->
+        <section class="">
+            <div class="text-center mt-2 p-4">
+                <h3 class="text-4xl font-semibold">Our Featured Products</h3>
+                <p class="text-common max-w-5xl mx-auto mt-5">A teahouse primarily sells a selection of different teas.
+                    A teahouse also mainly focuses on serving high-quality loose-leaf teas, and many will conduct tea
+                    ceremonies, usually following traditional Japanese or Chinese ceremony customs.</p>
+            </div>
+            <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-10 mt-5 lg:mx-16">
+                <div class="bg-[#F4F4F4] rounded-2xl p-4 flex items-center flex-col text-center">
+                    <div class="p-3">
+                        <img src="images/tea-1.png" alt="">
+                    </div>
+                    <div class="">
+                        <h3 class="text-2xl font-semibold mt-5">Lemon Tea</h3>
+                        <p class="text-common text-sm mt-2 mb-3">Milk water, lemon and honey</p>
+                    </div>
+                </div>
+                <div class="bg-[#F4F4F4] rounded-2xl p-4 flex items-center flex-col text-center">
+                    <div class="p-3">
+                        <img src="images/tea-2.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mt-5">Strawberry Tea</h3>
+                        <p class="text-common text-sm mt-2 mb-3">Milk strawberries, water and sugar</p>
+                    </div>
+                </div>
+                <div class="bg-[#F4F4F4] rounded-2xl p-4 flex items-center flex-col text-center">
+                    <div class="p3">
+                        <img src="images/tea-3.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mt-5">Tropical Tea</h3>
+                        <p class="text-common text-sm mt-2 mb-3">Milk water, grapes, mango and honey</p>
+                    </div>
+                </div>
+                <div class="bg-[#F4F4F4] rounded-2xl p-4 flex items-center flex-col text-center">
+                    <div class="p-3">
+                        <img src="images/tea-4.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mt-5">Colour Tea</h3>
+                        <p class="text-common text-sm mt-2 mb-3">Black tea water and sugar</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-----------------------------
+            Great Tea
+        ------------------------------------->
+        <section class="flex flex-col lg:flex-row mt-10 text-center lg:text-start">
+            <div class="grid grid-cols-1 md:grid-cols-2 flex-1 gap-5 m-20">
+                <div class="rounded-xl bg-gradient-to-r from-red-300 to-pink-200 h-36"></div>
+                <div class="row-span-2 rounded-xl flex justify-center items-center bg-[#E6A6231A] py-10">
+                    <img src="images/fresh-1.png" alt="">
+                </div>
+                <div class="order-4 md:order-3 row-span-2 rounded-xl flex justify-center items-center bg-[#5776391A] py-10">
+                    <img src="images/fresh-2.png" alt="">
+                </div>
+                <div class="order-3 md:order-4 rounded-xl bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF] h-36"></div>
+            </div>
+            <div class="flex-1 lg:mt-16 p-5">
+                <h3 class="text-4xl font-semibold">Great Tea, Freshly <br>Presented</h3>
+                <p class="text-common mt-5">As you may know, the best way to judge tea, is through its taste. But there
+                    are more ways to describe tea than using just words like “yum,” “mmmm,” and “ahhh.” The tea that you
+                    taste can be described as sour and sweet to spicy and earthy. Most teas matches its description like
+                    Creamy Caramel or Sweet Lemon, which makes it easy to identify the taste before even tasting it.</p>
+                <h4 class="text-lg font-semibold mt-5">Unique Taste</h4>
+                <p class="text-common mt-3 lg:w-10/12 text-center lg:text-start">One of the best ways to judge a tea, of course, is by the taste.
+                    Green tea should taste fresh, not stale, and should not be too astringent. Black tea should be full
+                    bodied and fresh.</p>
+                <h4 class="text-lg font-semibold mt-2">Premium Quality</h4>
+                <p class="text-common mt-3 lg:w-8/12 text-center lg:text-start">Easy to brew, lacking bitterness no matter how it is prepared. No
+                    matter how good a tea tastes the first time, a repeat performance is the real mark of quality.
+                </p>
+            </div>
+        </section>
+
+        <!-----------------------------
+            Meet Our Super Clients
+        ------------------------------------->
+        <section class=" bg-gradient-to-r from-[#ff8938] to-[#f00] flex flex-col lg:flex-row gap-10 p-10 lg:p-16 lg:m-20 rounded-lg mt-10">
+            <div class="flex items-center lg:pr-28">
+             <div class="text-center lg:text-start ">
+                <h1 class="text-4xl font-semibold text-[#F4F4F4]">Meet Our Super <br>Clients</h1>
+                <p class="mt-5 text-[#F4F4F4] text-base">At Langan's Tea House, we are overflowing with gratitude as we stand on the podium of culinary excellence, clutching our third consecutive Good Food Award Gold Seal 2023/24. This triumphant moment could not have been possible without the unwavering support of our beloved patrons, dedicated workers, enthusiastic volunteers, and all those who took the time to cast their votes in our favor.</p>
+                <button class="clients-btn mt-5 bg-white ">
+                    <div class="show">Show All</div>
+                </button>
+             </div>
+            </div>
+         <div class="relative mt-5 ">
+            <div class="lg:w-[433px] relative bg-white items-center p-10 rounded-lg opacity-40 z-10 mb-16 text-center lg:text-start">
+                <img class="absolute border-4  rounded-full bg-white border-white -top-5 -left-5" src="images/client.png" alt="">
+                <p class="text-[#777777] mt-3">Receiving the Good Food Award Gold Seal for three years running is not just an accomplishment; it's a testament to our commitment to quality, service, and the art of creating memorable dining experiences.</p>
+                <h4 class="font-semibold mt-3">Katie Gibson</h4>
+                <p class="text-[#777777] font-semibold mt-3">Businesswomen</p>
+                <div class="flex justify-end">
+                    <img src="images/circles.png" alt="">
+                </div>
+            </div>
+            <div class="lg:w-[433px] absolute bg-white items-center p-10 rounded-lg top-40 lg:-left-24 z-20 text-center lg:text-start">
+                <img class="absolute border-4  rounded-full bg-white border-white -top-5 -left-5" src="images/client.png" alt="">
+                <p class="text-[#777777] mt-3">Receiving the Good Food Award Gold Seal for three years running is not just an accomplishment; it's a testament to our commitment to quality, service, and the art of creating memorable dining experiences.</p>
+                <h4 class="font-semibold mt-3">Katie Gibson</h4>
+                <p class="text-[#777777] font-semibold mt-3">Businesswomen</p>
+                <div class="flex justify-end">
+                    <img src="images/circles.png" alt="">
+                </div>
+            </div>
+            <div class="lg:w-[433px] relative bg-white items-center p-10 rounded-lg opacity-40 z-10  text-center lg:text-start">
+                <img class="absolute border-4  rounded-full bg-white border-white -top-5 -left-5" src="images/client.png" alt="">
+                <p class="text-[#777777] mt-3">Receiving the Good Food Award Gold Seal for three years running is not just an accomplishment; it's a testament to our commitment to quality, service, and the art of creating memorable dining experiences.</p>
+                <h4 class="font-semibold mt-3">Katie Gibson</h4>
+                <p class="text-[#777777] font-semibold mt-3">Businesswomen</p>
+                <div class="flex justify-end">
+                    <img src="images/circles.png" alt="">
+                </div>
+            </div>
+         </div>
+        </section>
+
+        <!-------------------------------
+            News & Events
+        --------------------------------------->
+        <section class="p-5">
+            <div class="text-center p-5 lg:px-16 lg:mx-20">
+                <h1 class="text-4xl font-semibold">News & Events</h1>
+                <p class="text-common text-base mt-5">Former addicts are turning their lives around thanks to a Burton tea room and a coveted award. A team of volunteers at Langan's Tea Rooms in George Street have fought against the struggles and isolation of the coronavirus pandemic to be nominated for East Staffordshire Volunteer Team of the Year Star Award 2021'Tea will be served between three and five pm and will consist of tea, sandwiches and a slice of cake. If you are invited to High Tea, it will be slightly more substantial. There will be a strict dress code and you'll be expected to know how to behave at such an event.</p>
+            </div>
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-10 lg:mx-20">
+                <div class="rounded-xl border-inherit border-2 p-7">
+                    <img class="container mx-auto" src="images/news-1.png" alt="">
+                    <p class="text-base text-common mt-5">Feb 05, 2024</p>
+                    <h2 class="text-lg font-semibold mt-5">Collecting 8 points for discount</h2>
+                    <p class="text-base text-common mt-5"> ade from Camellia sinensis leaves and buds that have not undergone the same withering and oxidation process which is used to make oolong teas and black teas...</p>
+                    <h4 class="text-sm font-semibold mt-5">Learn More</h4>
+                </div>
+                <div class="rounded-xl border-inherit border-2 p-7">
+                    <img class="container mx-auto" src="images/news-2.png" alt="">
+                    <p class="text-base text-common mt-5">Feb 05, 2024</p>
+                    <h2 class="text-lg font-semibold mt-5">Collecting 7 points for discount</h2>
+                    <p class="text-base text-common mt-5"> True teas" (teas made from Camellia sinensis) blended with spices, steeped with spices or boiled with spices and lemon. Enhancing your metabolism...</p>
+                    <h4 class="text-sm font-semibold mt-5">Learn More</h4>
+                </div>
+                <div class="rounded-xl border-inherit border-2 p-7">
+                    <img class="container mx-auto" src="images/news-3.png" alt="">
+                    <p class="text-base text-common mt-5">Feb 05, 2024</p>
+                    <h2 class="text-lg font-semibold mt-5">Collecting 6 points for discount</h2>
+                    <p class="text-base text-common mt-5"> Made from fresh Mint leaves ,cloves, cardamom pods, 5-8 black peppercorn (it will be hot, so per taste), 2 cups water, 2-3 teaspoon honey (optional, per taste)...</p>
+                    <h4 class="text-sm font-semibold mt-5">Learn More</h4>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-[#fce7f3] p-5">
+        <div class="flex justify-between lg:mx-32 gap-5 mt-14">
+            <img src="images/cup.png" alt="">
+            <p class="">
+            <span class="text-base text-common mr-10">Ready to get started?</span>
+            <button class="get-started mt-5">Get Started</button>
+            </p>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-4 mt-10 gap-3 lg:ms-32">
+            <div class="">
+                <h4 class="font-semibold">Quick Linkss</h4>
+                <p class="text-base text-common no-underline hover:underline mt-5">Home</p>
+                <p class="text-base text-common no-underline hover:underline">About Us</p>
+                <p class="text-base text-common no-underline hover:underline">Insurance</p>
+                <p class="text-base text-common no-underline hover:underline">Privacy Policy</p>
+            </div>
+            <div class="">
+                <h4 class="font-semibold">Our Service</h4>
+                <p class="text-base text-common no-underline hover:underline mt-5">Life Insurance</p>
+                <p class="text-base text-common no-underline hover:underline">Car Insurance</p>
+                <p class="text-base text-common no-underline hover:underline">Health Insurance</p>
+                <p class="text-base text-common no-underline hover:underline">House Insurance</p>
+            </div>
+            <div class="">
+                <h4 class="font-semibold">Help</h4>
+                <p class="text-base text-common no-underline hover:underline mt-5">FAQs</p>
+                <p class="text-base text-common no-underline hover:underline">Contact Us</p>
+            </div>
+            <div class="">
+                <h4 class="font-semibold">Subscribe to our <br> newsletter</h4>
+                <div class="flex">
+                    <input type="text" placeholder="Email address" class=" bg-transparent border-b-2  border-black outline-none mt-5 w-36 lg:w-40" />
+                    <button class="rounded-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                <p class="opacity-70 mt-5">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter ms-5"></i>
+                    <i class="fa-brands fa-square-instagram ms-5"></i>
+                </p>
+            </div>
+        </div>
+        <p class="text-center mt-10 mb-10">© 2024 UIDesign.to - All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

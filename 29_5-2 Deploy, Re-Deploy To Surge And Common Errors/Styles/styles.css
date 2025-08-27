@@ -1,0 +1,224 @@
+/*---------------------
+Common CSS
+---------------------------*/
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+.btn-primary {
+    width: 200px;
+    height: 64px;
+    color: #FFF;
+    border-radius: 10px;
+    background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+    align-items: center;
+    justify-content: center;
+}
+
+/*----------------------------
+Banner
+--------------------------------*/
+
+.star-btn {
+    position: relative;
+    width: 255px;
+    height: 100px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.rating {
+    width: 68px;
+    height: 41px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.trust {
+    color: var(--Dark-03, #777);
+    font-size: 16px;
+    font-weight: 600;
+    width: 141px;
+    height: 22px;
+}
+
+/*--------------------------------
+Our Featured Products
+----------------------------------*/
+/*---------------------------
+Great Tea
+---------------------------------*/
+/*----------------------------
+Meet Our Super Clients
+---------------------------------*/
+/*---------------------------
+Meet Our Super Clients
+---------------------------------*/
+.clients-btn{
+    width: 139px;
+    height: 56px;
+    border-radius: 8px;
+}
+.show {
+    font-size: 16px;
+    font-weight: 700;
+    background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*-----------------------------
+footer
+----------------------------------*/
+.get-started{
+    width: 180px;
+    height: 60px;
+    color: #FFF;
+    border-radius: 10px;
+    background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+    align-items: center;
+    justify-content: center;
+}
+.rounded-btn{
+    width: 32px;
+    height: 32px;
+    color: #FFF;
+    border-radius: 30px;
+    background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+    align-items: center;
+    justify-content: center;
+}
+
+/* ======================================================================================= */
+/*                      Deploy, re-deploy to surge and common errors */
+/* ======================================================================================= */
+
+/* 
+Microsoft Windows [Version 10.0.26100.4946]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\shiha>cd..
+
+C:\Users>D:
+
+D:\>cd "Web Development\Millestone-5 Integrate JS(JS in A Relation)\Module-29.5 Practice Task And Deploy Your Site To Surge\29_5-2 Deploy, Re-Deploy To Surge And Common Errors"
+
+// ==================================================================================== //
+Step-1:
+// ==================================================================================== //
+
+D:\Web Development\Millestone-5 Integrate JS(JS in A Relation)\Module-29.5 Practice Task And Deploy Your Site To Surge\29_5-2 Deploy, Re-Deploy To Surge And Common Errors>surge
+
+   Running as shihab2010@outlook.com (Student)
+
+        project: D:\Web Development\Millestone-5 Integrate JS(JS in A Relation)\Module-29.5 Practice Task And Deploy Your Site To Surge\29_5-2 Deploy, Re-Deploy To Surge And Common Errors\
+         domain: angry-goat.surge.sh
+           size: 19 files, 847.0 KB
+         upload: [=========================] 100%
+            CDN: [=========================] 100%
+     encryption: [=========================] 100%
+
+  ┌──────────────────────────────────────────────────────────────────────────────┬────────────────────┐
+  │  Certificate: issuer=C = GB, ST = Greater Manchester, L = Salford, O = Sec…  │  Valid             │
+  │   *.surge.sh, surge.sh                                                       │  281 more days     │
+  └──────────────────────────────────────────────────────────────────────────────┴────────────────────┘
+  ┌──────────┬──────────────────────────────────────────────────────────────────────────────┬─────────┐
+  │          │   ns1.surge.world   ns2.surge.world     or CNAME…                            │         │
+  │    NS    │   ns3.surge.world   ns4.surge.world     geo.surge.world                      │         │
+  ├──────────┼──────────────────┬───────────────────────┬─────────────────────┬─────────────┼─────────┤
+  │   HTTP   │   sfo.surge.sh   │   US, San Francisco   │   138.197.235.123   │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   lhr.surge.sh   │   GB, London          │   46.101.67.123     │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   yyz.surge.sh   │   CA, Toronto         │   159.203.50.177    │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   jfk.surge.sh   │   US, New York        │   159.203.159.100   │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   ams.surge.sh   │   NL, Amsterdam       │   188.166.132.94    │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   fra.surge.sh   │   DE, Frankfurt       │   138.68.112.220    │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   sgp.surge.sh   │   SG, Singapore       │   139.59.195.30     │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   blr.surge.sh   │   IN, Bangalore       │   139.59.50.135     │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   syd.surge.sh   │   AU, Sydney          │   45.76.126.95      │   Vultr     │   ✔ ◍   │
+  │   HTTP   │   nrt.surge.sh   │   JP, Tokyo           │   172.104.96.133    │   Linode    │   ✔ ◍   │
+  └──────────┴──────────────────┴───────────────────────┴─────────────────────┴─────────────┴─────────┘
+   Live preview .................................................... 1756334332455-angry-goat.surge.sh
+   Production .................................................................... angry-goat.surge.sh
+
+   Success! - Published to angry-goat.surge.sh
+
+// ====================================================================================== //
+* Not to repeat 'angry-goat.surge.sh' over and over again use 'echo angry-goat.surge.sh > CNAME'
+// ====================================================================================== //
+
+D:\Web Development\Millestone-5 Integrate JS(JS in A Relation)\Module-29.5 Practice Task And Deploy Your Site To Surge\29_5-2 Deploy, Re-Deploy To Surge And Common Errors>echo angry-goat.surge.sh > CNAME
+
+D:\Web Development\Millestone-5 Integrate JS(JS in A Relation)\Module-29.5 Practice Task And Deploy Your Site To Surge\29_5-2 Deploy, Re-Deploy To Surge And Common Errors>surge
+
+   Running as shihab2010@outlook.com (Student)
+
+        project: D:\Web Development\Millestone-5 Integrate JS(JS in A Relation)\Module-29.5 Practice Task And Deploy Your Site To Surge\29_5-2 Deploy, Re-Deploy To Surge And Common Errors\
+         domain: angry-goat.surge.sh
+           size: 20 files, 847.0 KB
+         upload: [=========================] 100%
+            CDN: [=========================] 100%
+     encryption: [=========================] 100%
+
+  ┌──────────────────────────────────────────────────────────────────────────────┬────────────────────┐
+  │  Certificate: issuer=C = GB, ST = Greater Manchester, L = Salford, O = Sec…  │  Valid             │
+  │   *.surge.sh, surge.sh                                                       │  281 more days     │
+  └──────────────────────────────────────────────────────────────────────────────┴────────────────────┘
+  ┌──────────┬──────────────────────────────────────────────────────────────────────────────┬─────────┐
+  │          │   ns1.surge.world   ns2.surge.world     or CNAME…                            │         │
+  │    NS    │   ns3.surge.world   ns4.surge.world     geo.surge.world                      │         │
+  ├──────────┼──────────────────┬───────────────────────┬─────────────────────┬─────────────┼─────────┤
+  │   HTTP   │   sfo.surge.sh   │   US, San Francisco   │   138.197.235.123   │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   lhr.surge.sh   │   GB, London          │   46.101.67.123     │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   yyz.surge.sh   │   CA, Toronto         │   159.203.50.177    │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   jfk.surge.sh   │   US, New York        │   159.203.159.100   │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   ams.surge.sh   │   NL, Amsterdam       │   188.166.132.94    │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   fra.surge.sh   │   DE, Frankfurt       │   138.68.112.220    │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   sgp.surge.sh   │   SG, Singapore       │   139.59.195.30     │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   blr.surge.sh   │   IN, Bangalore       │   139.59.50.135     │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   syd.surge.sh   │   AU, Sydney          │   45.76.126.95      │   Vultr     │   ✔ ◍   │
+  │   HTTP   │   nrt.surge.sh   │   JP, Tokyo           │   172.104.96.133    │   Linode    │   ✔ ◍   │
+  └──────────┴──────────────────┴───────────────────────┴─────────────────────┴─────────────┴─────────┘
+   Live preview .................................................... 1756335224566-angry-goat.surge.sh
+   Production .................................................................... angry-goat.surge.sh
+
+   Success! - Published to angry-goat.surge.sh
+
+
+D:\Web Development\Millestone-5 Integrate JS(JS in A Relation)\Module-29.5 Practice Task And Deploy Your Site To Surge\29_5-2 Deploy, Re-Deploy To Surge And Common Errors>surge
+
+   Running as shihab2010@outlook.com (Student)
+
+        project: D:\Web Development\Millestone-5 Integrate JS(JS in A Relation)\Module-29.5 Practice Task And Deploy Your Site To Surge\29_5-2 Deploy, Re-Deploy To Surge And Common Errors\
+         domain: angry-goat.surge.sh
+           size: 20 files, 847.0 KB
+         upload: [=========================] 100%
+            CDN: [=========================] 100%
+     encryption: [=========================] 100%
+
+  ┌──────────────────────────────────────────────────────────────────────────────┬────────────────────┐
+  │  Certificate: issuer=C = GB, ST = Greater Manchester, L = Salford, O = Sec…  │  Valid             │
+  │   *.surge.sh, surge.sh                                                       │  281 more days     │
+  └──────────────────────────────────────────────────────────────────────────────┴────────────────────┘
+  ┌──────────┬──────────────────────────────────────────────────────────────────────────────┬─────────┐
+  │          │   ns1.surge.world   ns2.surge.world     or CNAME…                            │         │
+  │    NS    │   ns3.surge.world   ns4.surge.world     geo.surge.world                      │         │
+  ├──────────┼──────────────────┬───────────────────────┬─────────────────────┬─────────────┼─────────┤
+  │   HTTP   │   sfo.surge.sh   │   US, San Francisco   │   138.197.235.123   │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   lhr.surge.sh   │   GB, London          │   46.101.67.123     │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   yyz.surge.sh   │   CA, Toronto         │   159.203.50.177    │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   jfk.surge.sh   │   US, New York        │   159.203.159.100   │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   ams.surge.sh   │   NL, Amsterdam       │   188.166.132.94    │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   fra.surge.sh   │   DE, Frankfurt       │   138.68.112.220    │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   sgp.surge.sh   │   SG, Singapore       │   139.59.195.30     │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   blr.surge.sh   │   IN, Bangalore       │   139.59.50.135     │   D.Ocean   │   ✔ ◍   │
+  │   HTTP   │   syd.surge.sh   │   AU, Sydney          │   45.76.126.95      │   Vultr     │   ✔ ◍   │
+  │   HTTP   │   nrt.surge.sh   │   JP, Tokyo           │   172.104.96.133    │   Linode    │   ✔ ◍   │
+  └──────────┴──────────────────┴───────────────────────┴─────────────────────┴─────────────┴─────────┘
+   Live preview .................................................... 1756335376568-angry-goat.surge.sh
+   Production .................................................................... angry-goat.surge.sh
+
+   Success! - Published to angry-goat.surge.sh
+
+D:\Web Development\Millestone-5 Integrate JS(JS in A Relation)\Module-29.5 Practice Task And Deploy Your Site To Surge\29_5-2 Deploy, Re-Deploy To Surge And Common Errors>
+*/
